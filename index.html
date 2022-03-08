@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome cdn link here  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  </head>
+  <body>
+    <section id="menu">
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+        <h2>Dynamic</h2>
+      </div>
+      <div class="items">
+        <li><i class="fad fa-chart-pie-alt"></i><a href="#">Dashboard</a></li>
+        <li><i class="fab fa-uikit"></i><a href="#">UI Elements</a></li>
+        <li><i class="fas fa-th-large"></i><a href="#">Tables</a></li>
+        <li><i class="fas fa-edit"></i><a href="#">Forms</a></li>
+        <li><i class="fab fa-cc-visa"></i><a href="#">Cards</a></li>
+        <li><i class="fas fa-hamburger"></i><a href="#">Modal</a></li>
+        <li><i class="fas fa-chart-line"></i><a href="#">Blank</a></li>
+      </div>
+    </section>
+    <section id="interface">
+      <div class="navigation">
+        <div class="n1">
+          <div>
+            <i id="menu-btn" class="fal fa-bars"></i>
+          </div>
+          <div class="search">
+            <i class="far fa-search"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+
+        <div class="profile">
+          <i class="far fa-bell"></i>
+          <img src="images/1.jpg" alt="" />
+        </div>
+      </div>
+      <h3 class="i-name">Dashboard</h3>
+      <div class="values">
+        <div class="value-box">
+          <i class="fas fa-users"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>New Users</span>
+          </div>
+        </div>
+
+        <div class="value-box">
+          <i class="fas fa-shopping-cart"></i>
+          <div>
+            <h3>200,521</h3>
+            <span>Total Orders</span>
+          </div>
+        </div>
+
+        <div class="value-box">
+          <i class="fas fa-acorn"></i>
+          <div>
+            <h3>215,542</h3>
+            <span>Product Sell</span>
+          </div>
+        </div>
+
+        <div class="value-box">
+          <i class="fas fa-dollar-sign"></i>
+          <div>
+            <h3>$677.89</h3>
+            <span>This Month</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- table part start here  -->
+      <div class="board">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Title</td>
+              <td>Status</td>
+              <td>Role</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="people">
+                <img src="images/1.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Jon Doe</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/2.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>David Finch</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/3.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Alex Hales</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/4.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Eoin Morgan</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/5.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Mittchle Strac</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/6.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Sam Curran</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/5.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Sam Bellings</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/1.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Tom Moddy</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/4.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Rahul Cahar</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+
+            <tr>
+              <td class="people">
+                <img src="images/2.jpg" alt="" />
+                <div class="pepole-desc">
+                  <h5>Rohit Sharma</h5>
+                  <p>jhondoe@xample.com</p>
+                </div>
+              </td>
+
+              <td class="pepole-desg">
+                <h5>Softwere Enginear</h5>
+                <p>Web Dev</p>
+              </td>
+
+              <td class="active">
+                <p>Active</p>
+              </td>
+
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit"><a href="#">Edit</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- table part end here  -->
+    </section>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("#menu").toggleClass("active");
+      });
+    </script>
+  </body>
+</html>
